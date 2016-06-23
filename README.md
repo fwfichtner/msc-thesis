@@ -7,11 +7,13 @@ Acquiring point clouds of indoor environments became increasingly accessible in 
 
 This thesis proposes a workflow to semantically enrich indoor point clouds using an octree data structure. Meaning is added to the point cloud scene that allows to act as a basis for a graph. This graph can then follow navigation constraints of humans through an indoor environment. The approach for semantic enrichment of this study is capable of separating storeys, detecting floors, walls, stairs and obstacles like furniture. Strict preconditions are used, like walls being perpendicular to each other and using noise free point clouds. The implementation works as a proof of concept and the octree proves to be a helpful data structure.
 
+For more information about this project, see the [SIMs3D Website](http://www.sims3d.net/).
+
 ## Getting Started
 
-The necessary software and packages and deployment are described in the thesis document. The code provided here is the one used for the semantic enrichment of the point cloud.
+The necessary software, packages and deployment are described in the thesis document. The code provided here is the one used for the semantic enrichment of the point cloud.
 
-A link to the file will be made available soon.
+A link to the thesis will be made available soon.
 
 ## License
 
