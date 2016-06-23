@@ -1,10 +1,16 @@
-# msc-thesis
-Geomatics Master Thesis at Delft University of Technology and CGI Nederland
+# Semantic enrichment of a point cloud based on an octree for multi-storey pathfinding
+Geomatics Master Thesis at Delft University of Technology and CGI Nederland by Florian W. Fichtner
 
 Acquiring point clouds of indoor environments became increasingly accessible in recent years. However, the resulting 3D point cloud data is unstructured, and does not contain enough information to be useful for complex tasks like pathfinding. Indoor models which are currently derived from point clouds do not include furniture and stairs. The necessary graph to enable multi-storey pathfinding is not available in the point cloud.
 
 This thesis proposes a workflow to semantically enrich indoor point clouds using an octree data structure. Meaning is added to the point cloud scene that allows to act as a basis for a graph. This graph can then follow navigation constraints of humans through an indoor environment. The approach for semantic enrichment of this study is capable of separating storeys, detecting floors, walls, stairs and obstacles like furniture. Strict preconditions are used, like walls being perpendicular to each other and using noise free point clouds. The implementation works as a proof of concept and the octree proves to be a helpful data structure.
 
-The contribution is a novel approach of using octrees for the semantic enrichment of indoor point clouds, including the detection of stairs. Combining and extending different works from various fields of research helped to develop the presented methodology. The semantic classification of floors and stairs in 3D point clouds allows to create a graph across multiple storeys. A big part of the methodology was implemented and tested on different types of buildings and scanned with dissimilar kinds of laser scanners. Mobile scanners were found to be advantageous, because they are less dependent on the line of sight. On top of that, they can provide a path of the scanner, which is precious information that can support several structuring improvements of the acquired data. The octree generalises the point cloud to leafs and adds a structure to the empty space. This does not only improve the calculation performance, but also provides more distinguishable results.
+## Getting Started
 
-Concluding, the thesis proposes to extent the framework to cover a wider range of architectural structures. Furthermore, future research should deepen the knowledge for the stair detection of the presented conceptual framework. As the representation of stairs differ for every scanner, future research should focus on point clouds acquired by one kind of scanner first.
+The necessary software and packages and deployment are described in the thesis document. The code provided here is the one used for the semantic enrichment of the point cloud.
+
+A link to the file will be made available soon.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
