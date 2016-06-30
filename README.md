@@ -13,7 +13,7 @@ For more information about this project, see the [SIMs3D Website](http://www.sim
 
 The necessary software, packages and deployment are described in the thesis document. The code provided here is the one used for the semantic enrichment of the point cloud.
 
-The fundament of this project is described [here](https://agile-online.org/Conference_Paper/cds/agile_2016/shortpapers/112_Paper_in_PDF.pdf). A link to the thesis will be made available soon.
+The fundament of this project is described [here](https://agile-online.org/Conference_Paper/cds/agile_2016/shortpapers/112_Paper_in_PDF.pdf). [Here](http://repository.tudelft.nl/islandora/object/uuid:b4c13508-dbcc-4a32-a7b7-9cb22230e0a7?collection=education) you can find the thesis.
 
 ## License
 
